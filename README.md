@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# administrador-de-citas
+Una aplicación en React JS usando localStorage donde se crean citas para el veterinario y una seccion con las citas programadas donde se pueden eliminar.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
