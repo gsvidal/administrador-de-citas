@@ -108,7 +108,6 @@ const Formulario = ({crearCita}) => {
         <textarea name="sintomas" id="" cols="30" rows="10"
           className="u-full-width"
           onChange={handleChange}
-          value={mascota}
           value={sintomas}
         ></textarea>
 
