@@ -23,6 +23,10 @@ function App() {
       localStorage.setItem("citas", JSON.stringify([]));
     }
   }, [citas, citasIniciales]);
+  // optional Use Effect
+  // React.useEffect(() => {
+  //     localStorage.setItem("citas", JSON.stringify(citas));
+  // }, [citas]);
 
   //  Funcion que tome las citas actuales y agregue la nueva
   const crearCita = (cita) => {
